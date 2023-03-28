@@ -37,7 +37,7 @@
           "localized": true
         }
       },
-      "type": "text"
+      "type": "richtext"
     }
   }
 }

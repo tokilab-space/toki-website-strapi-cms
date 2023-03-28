@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-03-28T08:02:50.865Z"
+    "x-generation-date": "2023-03-28T09:13:57.223Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -96,9 +96,6 @@
           "name": {
             "type": "string"
           },
-          "description": {
-            "type": "string"
-          },
           "skill_categories": {
             "type": "array",
             "items": {
@@ -127,6 +124,9 @@
               "example": "string or id"
             }
           },
+          "description": {
+            "type": "string"
+          },
           "locale": {
             "type": "string"
           }
@@ -143,9 +143,6 @@
             "type": "object",
             "properties": {
               "name": {
-                "type": "string"
-              },
-              "description": {
                 "type": "string"
               },
               "skill_categories": {
@@ -176,6 +173,9 @@
                   "example": "string or id"
                 }
               },
+              "description": {
+                "type": "string"
+              },
               "locale": {
                 "type": "string"
               }
@@ -190,9 +190,6 @@
             "type": "number"
           },
           "name": {
-            "type": "string"
-          },
-          "description": {
             "type": "string"
           },
           "skill_categories": {
@@ -628,6 +625,9 @@
               }
             }
           },
+          "description": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -698,9 +698,6 @@
             "type": "object",
             "properties": {
               "name": {
-                "type": "string"
-              },
-              "description": {
                 "type": "string"
               },
               "skill_categories": {
@@ -1135,6 +1132,9 @@
                     }
                   }
                 }
+              },
+              "description": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -1212,9 +1212,6 @@
               "name": {
                 "type": "string"
               },
-              "description": {
-                "type": "string"
-              },
               "skill_categories": {
                 "type": "object",
                 "properties": {
@@ -1647,6 +1644,9 @@
                     }
                   }
                 }
+              },
+              "description": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -1755,9 +1755,6 @@
               "name": {
                 "type": "string"
               },
-              "description": {
-                "type": "string"
-              },
               "skill_categories": {
                 "type": "object",
                 "properties": {
@@ -2190,6 +2187,9 @@
                     }
                   }
                 }
+              },
+              "description": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -2267,9 +2267,6 @@
               "name": {
                 "type": "string"
               },
-              "description": {
-                "type": "string"
-              },
               "skill_categories": {
                 "type": "object",
                 "properties": {
@@ -2702,6 +2699,9 @@
                     }
                   }
                 }
+              },
+              "description": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
