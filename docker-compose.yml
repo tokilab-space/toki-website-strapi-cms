@@ -21,7 +21,6 @@ services:
       JWT_SECRET: ${JWT_SECRET}
       ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET}
       APP_KEYS: ${APP_KEYS}
-      STORAGE_BUCKET_URL: ${STORAGE_BUCKET_URL}
       NODE_ENV: development
     volumes:
       - .:/opt/app
