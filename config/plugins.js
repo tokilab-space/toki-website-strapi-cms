@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = ({ env }) => ({
   graphql: {
     config: {
       endpoint: '/graphql',
@@ -11,4 +11,21 @@ module.exports = {
       },
     },
   },
-};
+  
+  upload: {
+    config: process.env.NODE_ENV === 'production' ? {
+      provider: "strapi-provider-firebase-storage",
+      providerOptions: {
+        serviceAccount: require("/config/firebase-service-account.json"),
+        bucket: env("STORAGE_BUCKET_URL"),
+        sortInStorage: true, 
+        debug: false, 
+      },
+    } : {
+      provider: 'local',
+      providerOptions: {
+        sizeLimit: 100000,
+      },
+    },
+  },
+});

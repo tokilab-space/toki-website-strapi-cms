@@ -8,6 +8,7 @@ RUN yarn install && yarn build
 
 FROM node:16-alpine
 RUN apk add --no-cache vips-dev
+VOLUME /config/
 ENV NODE_ENV=production
 WORKDIR /opt/app
 COPY --from=build /opt/app/node_modules ./node_modules
