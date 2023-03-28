@@ -41,6 +41,11 @@
         }
       },
       "type": "richtext"
+    },
+    "works": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work.work"
     }
   }
 }
